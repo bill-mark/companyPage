@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.top{
+	background-color:white;
+}
+.top-right li{
+	float: right;
+    list-style-type: none;
+    width: 70px;
+}
+.top-right a{
+	font-size: 14px;
+    font-family: "微软雅黑";
+}
+.top-right a:link,.top-right a:visited{
+	color: #8e8e8e;
+	text-decoration: none;
+}
+.top-right a:hover,.top-right a:active{
+	color: red;
+	text-decoration: none;
+}
+.logo-left{
+	padding-top: 40px;
+	padding-left: 60px;
+	width: 185px;
+	height: 52px;
+	float: left;
+	display: inline-;
+}
