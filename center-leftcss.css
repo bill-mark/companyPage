@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+ul,li{list-style:none;}
+.wrap{
+	width:1000px;
+	height: 600px;
+	margin-left: 1px;
+}
+.hide{
+	display:none;
+}
+#tab_t{
+	  float: left;
+	  width: 200px;
+      height:365px;
+      display: inline-block;
+}
+#tab_t li{
+	width:200px;
+	height:90px;
+	line-height:90px;
+	text-align:center;
+	border:1px solid #ccc;	
+	background:#f5f5f5;
+	cursor:pointer;
+}
+#tab_t .act{
+	/*position:relative;*/
+	height:90px;
+	margin-bottom:-1px;
+	background:#fff;
+}
+#tab_c{
+	width: 758px;
+	height: 326px;
+	border:1px solid #ccc;	
+	padding:20px;
+	display: inline-block;
+}
